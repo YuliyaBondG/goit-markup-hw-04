@@ -425,12 +425,12 @@
     background-position: center;
     background-color: transparent;
     }
-
-  .icon-background-clients{
-    display: flex;
-    content: "";
+    
+  .icon-clients-link{
     width: 170px;
     height: 92px;
+    display: flex;
+    content: "";
     background-repeat: no-repeat;
     background-position: center;
     background-color: #F5F5F5;
@@ -438,6 +438,7 @@
     align-items: center;
     background-size: cover;
     border: 1px solid #AFB1B8;
+   
   }
   .icon-clients{
     width: 106px;
