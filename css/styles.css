@@ -112,7 +112,8 @@
   .icon-envelope{
     margin-right: 10px;   
     width: 16px;
-    height: 12px;   
+    height: 12px; 
+    fill: #757575;  
 }
 
 /*.icon-envelope:hover,
@@ -124,6 +125,7 @@
     margin-right: 10px;
     width: 10px;
     height: 16px;
+    fill: #757575; 
 
   }
   /*.icon-vector:hover,
@@ -356,6 +358,7 @@
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin-top: 16px ;
   }
   
   .team-list{
@@ -385,11 +388,12 @@
       box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         
   }
+  
    
   .services-item{
     width: 44px;
     height: 44px;
-    margin-top: 16px;
+    
        
   }
   .services-link{
@@ -451,8 +455,8 @@
   .icon-clients-link:focus .icon-clients{
     fill: #2196f3;
    }
-  .icon-background-clients:hover,
-  .icon-background-clients:focus{
+   .icon-clients-link:hover,
+   .icon-clients-link:focus{
     border: 1px solid #2196F3;
     border-radius: 4px;
     background-color: #F5F5F5;
